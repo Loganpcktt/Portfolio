@@ -1,0 +1,27 @@
+  .Filler
+  {
+    height: 75vh;
+  }
+
+  .Specialty,
+  .PastClients {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    color: white;
+  }
+
+  .Title,
+  .Text {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .Title h1 {
+    font-size: 20px;
+    color: white;
+  }
+
+  .Text p {
+    text-align: justify;
+  }
