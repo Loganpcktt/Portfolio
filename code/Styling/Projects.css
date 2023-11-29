@@ -1,0 +1,31 @@
+.Filler
+{
+  height: 25vh;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 100px;
+}
+.projects-section-Container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-Collumn-Container {
+    display: flex;
+    flex-direction: row; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .Main img{
+      width: 50vw;
+      height: 45vh;
+      display: block; /* Remove extra space below the images */
+
+  }
+  .Second img{
+      width: 50vw;
+      height: 22.5vh;
+      display: block;
+      flex-direction: column;
+  }
