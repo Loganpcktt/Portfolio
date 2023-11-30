@@ -1,27 +1,48 @@
-  .Filler
-  {
-    height: 75vh;
-  }
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
 
-  .Specialty,
-  .PastClients {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 30px;
-    color: white;
-  }
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #333; /* Add a background color for better visibility */
+}
 
-  .Title,
-  .Text {
-    flex: 1;
-    padding: 20px;
-  }
+.Filler img {
+  margin-top: 100px;
+  height: 50vh;
+  width: 100vw;
+}
 
-  .Title h1 {
-    font-size: 20px;
-    color: white;
-  }
+.Specialty,
+.PastClients {
+  background-color: #333;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column; /* Change from row to column for better stacking */
+  margin-top: 10px; /* Adjust margin-top as needed */
+  color: white;
+}
 
-  .Text p {
-    text-align: justify;
-  }
+.Title,
+.Text {
+  padding: 10px;
+}
+
+.Title h1 {
+  font-size: 20px;
+  color: white;
+}
+
+.Text p {
+  text-align: justify;
+}
+
+footer {
+  margin-top: 30px; /* Adjust margin-top to create space between the content and footer */
+}
