@@ -14,14 +14,14 @@ hr {
 /* NavBar */
  .SocialLinks img{
   padding-left: 3px;
-    width: 40px;
+    width: 30px;
     filter: invert(0); 
 }
 
  .SocialLinks img:hover{
     padding-left: 3px;
-    width: 40px;
-    filter: invert(0.5);
+    width: 30px;
+    filter: invert(0.75);
 }
 
 
