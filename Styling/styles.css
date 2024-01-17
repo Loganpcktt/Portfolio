@@ -11,6 +11,19 @@ hr {
 /* Page Styling */
 
 
+/* NavBar */
+ .SocialLinks img{
+  padding-left: 3px;
+    width: 40px;
+    filter: invert(0); 
+}
+
+ .SocialLinks img:hover{
+    padding-left: 3px;
+    width: 40px;
+    filter: invert(0.5);
+}
+
 
 /* About Me */
 #AboutMeContent{
@@ -123,13 +136,13 @@ font-size: larger;
 
 
 /* Footer */
-.SocialLinks img{
+footer .SocialLinks img{
   padding-left: 3px;
     width: 40px;
     filter: invert(1); 
 }
 
-.SocialLinks img:hover{
+footer .SocialLinks img:hover{
   padding-left: 3px;
     width: 40px;
     filter: invert(0);
