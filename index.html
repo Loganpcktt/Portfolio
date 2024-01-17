@@ -16,6 +16,19 @@
     background-color: beige;
   }
 
+  .gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+}
+
+
+.short-div {
+  height:60px;
+}
 </style>
 <body>
   <!-- NavBar -->
@@ -49,7 +62,7 @@
     <h1 class="font-weight-bold">Logan Peckitt</h1>
     <p id="AboutMeContent">Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.</p>
     <div class="btn-group-custom">
-      <a href="#" class="btn btn-light btn-custom">Go somewhere</a>
+      <a href="#" class="btn btn-light btn-custom">Resume</a>
       <a href="#" class="btn btn-light btn-transparent-on-hover">Contact</a>
     </div> 
   </div>
@@ -59,7 +72,7 @@
 
 
 <!-- Projects -->
-  <div class="container">
+  <div class="container" style="margin-bottom: 100px;">
     
     <!-- Header -->
     <div class="container text-center mb-5">
@@ -69,40 +82,36 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
     </div>
-  
-<!-- Row 1 -->
-<div class="row justify-content-center float-left">
-  <div class="col-sm-4 portfolio-item col-custom">
-    <img class="img-fluid rounded" src="Portfolio_Images/Images - Copy/Projects/quiz.png" alt="">
-    <span class="col-overlay">test</span>
-  </div>
-  <div class="col-sm-4 portfolio-item float-right col-custom">
-    <img class="img-fluid rounded" src="Portfolio_Images/Images - Copy/Projects/Calc.jpg" alt="">
-    <span class="col-overlay">test</span>
-  </div>
-</div>
-     <!-- Row 2 -->
-     <div class="row justify-content-center float-left">
-      <div class="col-sm-4 portfolio-item">
-        <img class="img-fluid rounded" src="Portfolio_Images/Images - Copy/Projects/quiz.png" alt="">
+
+    <!-- Image Gallery -->
+    <div class="gallery" id="gallery">
+      <!-- Grid column -->
+      <div class="mb-3 pics portfolio-item">
+        <img class="img-fluid" src="Portfolio_Images/Images - Copy/Projects/quiz.png" alt="Card image cap">
         <span class="col-overlay">test</span>
       </div>
-      <div class="col-sm-4 portfolio-item float-right">
-          <img class="img-fluid rounded" src="Portfolio_Images/Images - Copy/Projects/Calc.jpg" alt="">
-          <span class="col-overlay">test</span>
-        </div>
+      <!-- Grid column -->
+      <div class="mb-3 portfolio-item">
+        <img class="img-fluid" src="Portfolio_Images/Images - Copy/Projects/Calc.jpg" alt="Card image cap">
+        <span class="col-overlay">test</span>
+      </div>
+      <!-- Grid column -->
+      <div class="mb-3 portfolio-item" id="Portfolio-RowSpan">
+        <img class="img-fluid" src="https://bigpicture.one/wp-content/uploads/2023/01/Portfolio-program-project-differences.png" alt="Card image cap">
+        <span class="col-overlay">test</span>
+      </div>
+      <!-- Grid column -->
+      <div class="mb-3 portfolio-item">
+        <img class="img-fluid" src="Portfolio_Images/Images - Copy/Projects/quiz.png" alt="Card image cap">
+        <span class="col-overlay">test</span>
+      </div>
+      <!-- Grid column -->
+      <div class="mb-3 portfolio-item">
+        <img class="img-fluid" src="Portfolio_Images/Images - Copy/Projects/Calc.jpg" alt="Card image cap">
+        <span class="col-overlay">test</span>
+      </div>
     </div>
-   <!-- Row 3 -->
-   <div class="row justify-content-center float-left">
-    <div class="col-sm-4 portfolio-item">
-      <img class="img-fluid rounded" src="Portfolio_Images/Images - Copy/Projects/quiz.png" alt="">
-      <span class="col-overlay">test</span>
-    </div>
-    <div class="col-sm-4 portfolio-item float-right">
-        <img class="img-fluid rounded" src="Portfolio_Images/Images - Copy/Projects/Calc.jpg" alt="">   
-        <span class="col-overlay">test</span>     
-    </div>
-  </div>
+    
 </div>
 <!-- Projects -->
 
