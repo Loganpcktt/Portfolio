@@ -2,6 +2,12 @@
 body {
   font-family: 'Arial', sans-serif;
 }
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
 /* Page Styling */
 
 
@@ -87,9 +93,25 @@ font-size: larger;
 
 
 /* Skills */
+.skill-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; 
+}
+
+.skill-logo img {
+  flex: 1;
+  max-width: 150%; 
+}
+
+.skill-logo label {
+  text-align: center; 
+  padding: 10px; 
+}
+
 #ProgLanguages img{
   padding-left: 3px;
-  width: 40px;
+  width: 100px;
   filter: invert(0); 
 }
 /* Skills */  
@@ -109,3 +131,10 @@ font-size: larger;
     filter: invert(0);
 }
 /* Footer */
+
+
+
+
+
+
+
