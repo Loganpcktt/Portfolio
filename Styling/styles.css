@@ -1,17 +1,94 @@
-.SocialLinks img{
-    padding-left: 3px;
-      width: 40px;
-      filter: invert(1); 
+/* Page Styling */
+body {
+  font-family: 'Arial', sans-serif;
+}
+/* Page Styling */
+
+
+
+/* About Me */
+#AboutMeContent{
+  font-size: larger;
+}
+
+.btn-custom {
+width: 200px;
+height: 50px;
+font-size: larger;
+}
+.btn-transparent-on-hover {
+  background-color: rgba(255, 255, 255, 0); 
+  border: 2px solid white;
+  transition: background-color 0.3s ease-in-out;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: larger;
   }
   
-  .SocialLinks img:hover{
-    padding-left: 3px;
-      width: 40px;
-      filter: invert(0);
+  .btn-transparent-on-hover:hover {
+  
+  opacity: 1;
+  color: black;
+  background-color: #f8f9fa;
   }
+  .zoom {
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out; 
+  }
+  .zoom:hover {
+  transform: scale(1.025); 
+  -webkit-transition: transform .30s ease-in-out;
+  }
+  .jumbotron {
+    background-color: #3498db;
+    color: #fff;
+  }
+/* About Me */
 
-#ProgLanguages img{
-    padding-left: 3px;
-    width: 40px;
-    filter: invert(0); 
+
+
+/* Projects */
+.col-custom:hover{
+opacity: 0.5;
+transition: .5s ease;
 }
+
+.col-custom-desc{
+opacity: 0.5;
+transition: .5s ease;
+}
+
+.col-custom:hover .col-custom-desc{
+opacity: 1;
+}
+.portfolio-item {
+  margin-bottom: 20px;
+}
+/* Projects */
+
+
+
+/* Skills */
+#ProgLanguages img{
+  padding-left: 3px;
+  width: 40px;
+  filter: invert(0); 
+}
+/* Skills */  
+
+
+
+/* Footer */
+.SocialLinks img{
+  padding-left: 3px;
+    width: 40px;
+    filter: invert(1); 
+}
+
+.SocialLinks img:hover{
+  padding-left: 3px;
+    width: 40px;
+    filter: invert(0);
+}
+/* Footer */
