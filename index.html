@@ -2,19 +2,13 @@
 <html lang="en">
 <head>
   <title>Logan Peckitt - Portfolio</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="Styling/styles.css">
+  <script src="https://kit.fontawesome.com/83e7de46bf.js" crossorigin="anonymous"></script>
 </head>
 <style>
-  .test1{
-    background-color: red;
-  }
-  .test2{
-    background-color: blue;
-  }
-  .testrow{
-    background-color: beige;
-  }
 
   .gallery {
   -webkit-column-count: 3;
@@ -44,13 +38,10 @@
   height: 30px;
 }
 
-
-
-
-
-.short-div {
-  height:60px;
+.specialty{
+  border-bottom: 4px solid darkblue;
 }
+
 </style>
 <body>
 <!-- NavBar -->
@@ -102,6 +93,38 @@
   </div>
 </div>
 <!-- About Me -->
+
+
+
+<!-- What I Do -->
+<div class="container" style="margin-bottom: 100px;">
+  <h1 class="ml-3">Education / Experience</h1>
+
+
+
+
+
+  <div class="container card col specialty py-3">
+    <div   data-toggle="collapse" data-target="#Education">
+      <h4>NSCC - IT WEB PROGRAMMING</h4>
+    </div>
+    <div id="Education" class="collapse">
+      <p>2022-2024</p>
+      <p class="">Web Design</p>
+    </div>
+  </div>
+  <div class="container card col specialty py-3">
+    <div   data-toggle="collapse" data-target="#Experience">
+      <h4>Shadow Group Internship - Database Developer</h4>
+    </div>
+    <div id="Experience" class="collapse">
+      <p>Apr 2023 - Jun 2023</p>
+      <p class="">Collaborated with a team member to design and implement an efficient employee document database using sharepoint. Played a key role in the end-to-end development process, optimizing data storage and retrieval with WorkFlows. Demonstrated precision, teamwork, and a commitment to data security in a real-world setting.</p>
+    </div>
+  </div>
+
+</div>
+<!-- What I Do -->
 
 
 
@@ -258,7 +281,7 @@
         <a class="mx-2" >Phone</a>
       </div>
       <div class="col-2 ContactBox mx-2 my-2 d-flex">
-        <img class="ContactLogo" src="Portfolio_Images/SocialMediaLinks/instagram.svg" alt="instagram">
+        <img class="ContactLogo" src="Portfolio_Images/SocialMediaLinks/linkedin.svg" alt="instagram">
         <a class="mx-2" href="https://www.linkedin.com/in/logan-peckitt-5b6ba810a/">LinkedIn</a>
       </div>
     </div>
