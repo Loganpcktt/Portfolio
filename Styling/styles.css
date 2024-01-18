@@ -116,9 +116,13 @@ font-size: larger;
   align-items: stretch; 
 }
 
+#teste{
+  filter: grayscale(1);
+}
+
 .skill-logo img {
   flex: 1;
-  max-width: 150%; 
+  max-width: 125%; 
 }
 
 .skill-logo label {
@@ -130,6 +134,16 @@ font-size: larger;
   padding-left: 3px;
   width: 100px;
   filter: invert(0); 
+}
+
+#ProgLanguages i{
+  padding-left: 3px;
+  width: 100px;
+  filter: invert(0); 
+}
+.skill-logo i {
+  flex: 1;
+  max-width: 125%; 
 }
 /* Skills */  
 
